@@ -6,7 +6,7 @@ let package = Package(
     products: [.library(name: "SegmentSingular", targets: ["SegmentSingular"])],
     dependencies: [
         .package(url: "https://github.com/segmentio/analytics-ios", from: "4.1.8"),
-        .package(url: "https://github.com/singular-labs/Singular-iOS-SDK", from: "12.4.2")
+        .package(url: "https://github.com/singular-labs/Singular-iOS-SDK", from: "12.6.1")
     ],
     targets: [
         .target(
